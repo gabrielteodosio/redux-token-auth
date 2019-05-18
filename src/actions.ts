@@ -192,7 +192,7 @@ const generateAuthActions = (config: { [key: string]: any }): ActionsExport => {
     const {
       password,
       signInFieldName,
-      signInFieldValue
+      signInFieldValue,
     } = userSignInCredentials
     try {
       const response = await axios({
